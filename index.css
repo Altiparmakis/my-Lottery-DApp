@@ -1,0 +1,186 @@
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+body {
+  margin-top: 0px;
+  background-color: #eeeeee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0 ;
+  width: 100%;
+  height: 2.5rem;
+}
+footer p {
+  color: #a9a9a9;
+}
+.componentsSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.componentsSection > div {
+  position: relative;
+  margin: 0 100px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 20px;
+  width: 340px;
+}
+.componentsSection > div h3 {
+  font-size: 1.5em;
+  margin-top: 3px;
+}
+.componentsSection > div button {
+  position: absolute;
+  right: 18px;
+  bottom: 0px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  font-size: 25px;
+}
+.componentsSection > div img {
+  border-radius: 12%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0 auto;
+  height: 220px;
+  margin-bottom: 50px;
+}
+.componentsSection > div p {
+  color: #f5ba13;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.messagesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.messagesSection h3 {
+  font-size: 20px;
+}
+.currentAccountSection {
+  margin-left: 50px;
+}
+.currentAccountSection input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: 370px;
+}
+.buttonSection {
+  margin-top: 80px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.buttonSection > div {
+  text-align: center;
+}
+.buttonSection > div input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button {
+  padding: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.componentsSection > div input {
+  width: 100%;
+}
+.afterHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.afterHeader > div {
+  text-align: center;
+}
+.afterHeader > div p {
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: larger;
+}
+.afterHeader > div > ul li {
+  padding: 5px;
+  margin-left: 100px;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+.divText {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.divText p {
+  margin: 10px 0;
+  color: #666;
+}
+#e {
+  font-size: larger;
+  font-weight: bold;
+}
+#declareW {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#AmWp {
+  font-size: larger;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1600px) {
+  .buttonSection {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .componentsSection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+  }
+  .componentsSection > div {
+    margin: 30px auto;
+  }
+ 
+}
+@media screen and (max-width: 650px) {
+    .buttonSection{
+    flex-direction: column;
+  }
+}
