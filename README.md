@@ -13,7 +13,7 @@ Users can participate in a lottery draw by placing bids for items. After the dra
 
 ## Demo
 
-Visit the live demo [here]([https://your-username.github.io/lottery-ballot](https://altiparmakis.github.io/my-Lottery-DApp/)).
+Visit the live demo [here](https://your-username.github.io/lottery-ballot](https://altiparmakis.github.io/my-Lottery-DApp/).
 
 ## Installation
 
